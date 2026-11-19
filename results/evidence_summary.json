@@ -1,0 +1,52 @@
+{
+  "release_date": "2026-11-20",
+  "evidence_type": "aggregate historical artifact audit; not a new GPU experiment",
+  "ASR": {
+    "audit_date": "2026-11-04",
+    "split": "legacy154",
+    "fit_conversations": 1391,
+    "dev_conversations": 154,
+    "current_clips": 154,
+    "history_clips": 345,
+    "all_clips": 499,
+    "hypotheses_rescored": 9980,
+    "hardware": "2x NVIDIA T4",
+    "metric_source_sha256": "af33c2d6c6a634263533fe7ff17b8ffe4c81e17048a9292ec38f29c8800dcf6a",
+    "checkpoint_note": "Epoch4 full-fit medium/large, distinct from medium V2 epoch5/foldA"
+  },
+  "medium_V2": {
+    "input_archive_sha256": "db71412f224856b0119d8ea5557e03786c9a12d078101c89fc177ac569342b0c",
+    "samples": 634,
+    "audio_clips": 1933,
+    "actual_tool_calls": 1489,
+    "finished": 630,
+    "timeout": 4,
+    "schema_rejections": 0,
+    "tool_failure_results": 0,
+    "mean_stage_sum_seconds": 19.60360478533596,
+    "p95_stage_sum_seconds": 37.103155612599785,
+    "max_stage_sum_seconds": 47.12224493300022,
+    "over_30_seconds_T4": 85,
+    "online_A30_measurement": false,
+    "maximum_recorded_generation_turns": 8,
+    "maximum_output_tokens_per_turn": 137,
+    "private_test_score": null
+  },
+  "owner_reported_scores": [
+    {
+      "system": "W50_Zipformer",
+      "score": 63.5,
+      "independently_portal_verified": false
+    },
+    {
+      "system": "W50_medium_V2",
+      "score": 53.87,
+      "independently_portal_verified": false
+    }
+  ],
+  "excluded_manual_output_score": {
+    "score": 81.99,
+    "reason": "Manual/test-specific output adjudication, not an autonomous Qwen checkpoint result"
+  },
+  "public_release_trained_model": false
+}
