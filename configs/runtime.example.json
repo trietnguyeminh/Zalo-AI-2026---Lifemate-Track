@@ -1,0 +1,36 @@
+{
+  "documentation_only": true,
+  "planner": {
+    "base": "Qwen/Qwen3.5-4B",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "team_adapter": "W50 from63.8",
+    "adapter_sha256": "ede0ecfda8d16e35e0d402e704a7602b76218dcf26cd9f9b230ae39ae7f5e616",
+    "rank": 64,
+    "alpha": 128,
+    "context_limit": 16384,
+    "max_steps": 12,
+    "max_new_tokens": 512,
+    "enable_thinking": false,
+    "temperature": 0,
+    "seed": 20261031
+  },
+  "ASR_control": {
+    "family": "Zipformer F1 ONNX",
+    "encoder": "INT8",
+    "joiner": "INT8",
+    "decoder": "Must explicitly select and hash INT8 or FLOAT; no glob-first selection",
+    "beam_paths": 4,
+    "weights_included": false
+  },
+  "hardware": {
+    "development": "2x NVIDIA T4",
+    "final_target": "1x NVIDIA A30"
+  },
+  "deadline": {
+    "T4_research_budget_seconds": 45,
+    "final_total_target_seconds": 30,
+    "A30_compliance_verified": false
+  },
+  "app_state_access": "Original organizer ToolEnv only; one instance/sample/job; all actual calls logged",
+  "weights_or_data_included": false
+}
