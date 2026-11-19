@@ -1,0 +1,17 @@
+{
+  "release_date": "2026-11-20",
+  "python_tested": "3.12.14",
+  "standard_library_tests": 16,
+  "test_result": "PASS",
+  "synthetic_demo": "PASS; scripted fixture, not ASR or LLM inference",
+  "standalone_Python_modules_compiled": 9,
+  "notebook_code_cells_compiled": true,
+  "notebook_outputs_cleared": true,
+  "embedded_source_archives_reviewed": 1,
+  "sample_ID_secret_personal_path_findings": 0,
+  "broken_local_document_links": 0,
+  "historical_Torch_cache_selftest_rerun": false,
+  "new_GPU_training_or_inference": false,
+  "private_test_score": null,
+  "CI_remote_status": "See live GitHub workflow; this record covers local CPU validation"
+}
