@@ -1,0 +1,35 @@
+{
+  "source_scope": "Private experiment workspace; no dataset or row-level outputs released",
+  "copied_reference_modules": {
+    "feature_cache.py": "58f0cbba3960688f934aa71b89e27ea596f7b7b8dfaee854a6cbb1c90947fe7b",
+    "cache_selftest.py": "ff6e8708cff6efd9f817fc17e350362fa207c45431f7df8623a982b54594e322"
+  },
+  "notebook": {
+    "historical_source_sha256": "b689d3ce727126231708b79ec67ceaa68ae51276eeee1c1db20ae5b4cc729d21",
+    "public_reference_sha256": "1a0ab41c032e679e37816c8d981e208bef07a2d91865c285b7d20d8a5ae4ee9a",
+    "new_GPU_run": false
+  },
+  "new_public_code": "src/, tests/, examples/ and tools/run_checks.py are a refactored CPU demonstration, not a full organizer runtime",
+  "evidence_reports": [
+    {
+      "title": "NumPy ABI repair V1.2",
+      "sha256": "c14bd97812ae8a9151cf9b9d7501ddbab6585c71a1571b64d6f2384f9d862143"
+    },
+    {
+      "title": "Strided feature-cache repair V1.3",
+      "sha256": "a451920fa3b8d7c7fb2f5ab579efc9eb7a5443fd58297fe0275e0941937a93c3"
+    },
+    {
+      "title": "Memory-offload diagnosis V3.2",
+      "sha256": "ce5ac00970da272442c95d28578142ea9c8c90e03c1183883c83a1b42c7b7f6b"
+    },
+    {
+      "title": "Attention dispatch hypothesis V3.3",
+      "sha256": "ab88c9e21784fe946881ab00ae0952fd663185236ddf098ee3cee9f0d515f4a5"
+    },
+    {
+      "title": "AMP/resume design V3.4",
+      "sha256": "db6ce901dfb71fa852a579472b74389ad88ae4f2cf155fb4bffd6f2a8c816f35"
+    }
+  ]
+}
