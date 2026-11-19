@@ -1,0 +1,7 @@
+model,decode,current_WER_pct,all_WER_pct,dialogue_p95_seconds_T4
+PhoWhisper-large,beam5,9.96,9.87,33.18
+PhoWhisper-large,greedy,10.51,10.46,25.99
+PhoWhisper-medium,beam5,11.4,11.08,21.98
+PhoWhisper-medium,greedy,11.92,11.64,18.49
+ChunkFormer CTC,greedy,15.86,15.54,1.47
+Wav2Vec2,greedy,27.06,26.77,0.42
